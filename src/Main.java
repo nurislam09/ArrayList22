@@ -9,7 +9,7 @@ public class Main {
         ArrayList<Integer> arrayodd = new ArrayList<>();
 
         Random random = new Random();
-        for (int i = 0; i <=50 ; i++) {
+        for (int i = 0; i < 50 ; i++) {
             int a = random.nextInt(1,100);
             arrayList.add(a);
             if (a%2==0){
